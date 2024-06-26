@@ -1,0 +1,185 @@
+html {
+    font-size: 1px;
+    width: 100%;
+    height: 100%;
+  }
+  #title, #description {
+    text-align: center;
+    font-size: 25rem;
+    position: relative;
+    z-index: 2;
+    color: #FEFEff;
+    right: 10rem;
+    top: 20rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  #title {
+    display: block;
+    margin-bottom: 5rem;
+  }
+  #name-label, #email-label, #number-label, #dropdown-label {
+    font-size: 20rem;
+    display: flex;
+    margin-bottom: 5rem;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FEFEff;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    filter: drop-shadow( 0 0 2rem rgba(0,0,0, 0.6));
+  }
+  #name-label {
+    margin-top: 3rem;
+  }
+  #email-label, #number-label {
+    margin-top: -3rem;
+  }
+  #number, #email, #name {
+    width: 50%;
+    margin-bottom: 12rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  legend {
+    font-size: 15rem;
+    text-align: center;
+    width: 50%;
+  }
+  body {
+    text-align: center;
+    padding: 5px;
+    background-image:url("pexels-alexander-suhorucov-6457513.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  body::before {
+    content: " ";
+
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  #radio label {
+    font-size: 15rem;
+  }
+  #checkbox label, checkbox  {
+   font-size: 15rem;
+   display: block;
+   margin-bottom: 5rem;
+  }
+  #whole-form {
+    width: 40%;
+    margin: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #939393; 
+    position: relative;
+    z-index: 2;
+    font-family: sans-serif ;
+    padding: 5rem;
+    right: 10rem;
+    top: 20rem;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.76);
+    border: 1px solid #464646;
+  }
+  #dropdown-label {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #dropdown {
+    margin: 15rem;
+
+  }
+  #radio, #checkbox {
+    border: none;
+    margin-bottom: 20rem;
+  }
+  #textarea {
+    border: none;
+    margin-bottom: 0;
+  }
+  #submit {
+    text-align: center;
+  }
+  #textarea legend {
+    margin-bottom: 5rem;
+  }
+  #checkboxitems {
+   text-align: center;
+   margin-left: auto;
+   margin-right: auto;
+  }
+  textarea {
+    width: 70%;
+    height: 50rem;
+    border-radius: 10px;
+    border: 1px solid #464646;
+    font-size: 15rem;
+    padding: 5px;
+    font-family: sans-serif;
+
+  }
+
+  input[ type='text'], input[type='email'], input[type='number'] {
+    border-radius: 10px;
+    height: 25rem;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #464646;
+    font-size: 15rem;
+    font-family: sans-serif;
+    text-align: center;
+    outline: none;
+    box-shadow: 0 0 15px rgba(17, 17, 17, 0.6);
+
+
+  }
+
+  legend {
+    font-size: 17rem;
+    text-align: center;
+    width: 50%;
+    font-family: sans-serif;
+    color: #FEFEff;
+    filter: drop-shadow( 0 0 2rem rgba(0,0,0, 0.6));
+    margin-bottom: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+  }
+
+
+  #submit {
+    text-align: center;
+    font-size: 15rem;
+    font-family: sans-serif;
+    color: #FEFEff;
+    filter: drop-shadow( 0 0 2rem rgba(0,0,0, 0.6));
+    margin-bottom: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5rem;
+    width: 25%;
+    height: 100%;
+    border-radius: 4px;
+  }
+  #submit:hover {
+    background-color: #FEFEff;
+    color: #464646;
+    filter: drop-shadow( 0 0 2rem rgba(0,0,0, 0.6));
+  }
+
+  #submit:active {
+    background-color: #FEFEff;
+    color: #464646;
+    filter: drop-shadow( 0 0 2rem rgba(0,0,0, 0.6));
+  }
+
